@@ -1,0 +1,350 @@
+
+/* body */
+
+body{
+    
+    background-size: 100%;
+    
+    border-top: 5px solid rgb(243, 120, 6);
+}
+
+/* header */
+.header{
+    color: white;
+    background-image: url(Images/header_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+    
+}
+#header{
+    height: 110vh;
+}
+.header .logo{
+    
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: baseline;
+    align-content: space-evenly;
+    justify-content: space-around;
+    
+}
+.header .logo{
+    position: fixed;
+}
+
+.header_top_content{
+    height: 70vh;
+    
+}
+
+
+.content{
+    margin-left: 50px 20px;
+    
+}
+.content p{
+    font-size: 10px;
+    word-wrap: wrap;
+}
+
+h2{
+    font-size: 25px;
+}
+h1{
+    color: white;
+    font-size: 45px;
+}
+.bottom_content img{
+    width: 240px;
+    height: 130px;
+    float: left;
+    padding: 10px;
+
+}
+.bottom_content{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    /* box-shadow-top: 0px  rgb(197, 197, 18); */
+    
+    
+}
+.bottom_content1 {
+    /* margin: 40px 40px; */
+    margin: auto;
+    padding: 50px;
+    text-wrap: wrap;
+}
+.bottom_content2{
+    text-wrap: wrap;
+    padding: 20px;
+    margin: auto;
+}
+h4{
+    float: left;
+    font-size: 45px;
+}
+.LsThn{
+    border-radius: 50%;
+    background-color: rgb(234, 124, 20);
+    width: 20px;
+    height: 20px;
+}
+.viewAll:hover{
+    .LsThn{
+    background-color: black;
+    }
+}
+/* university news section 1 */
+
+.University_news_1 img{
+    width: 400px;
+    height: 200px;
+
+}
+.University_news_1{
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    color: black;
+    
+}
+
+.University_news_1 h4{
+    font-size: 25px;
+    font-weight: lighter;
+    width: 400px;
+    transition: all .5s ease-in;
+    color: black;
+    
+    
+}
+
+.University_news_1 div:hover{
+    h4{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    }
+}
+
+.University_news_1 p{
+    text-wrap: wrap;
+    width: 400px;
+    text-align: left;
+    color: black;
+}
+
+/* university news section 2 */
+
+.university_news_2{
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    color: black;
+}
+.university_news_2 img{
+    width: 400px;
+    height: 200px;
+}
+.university_news_2 h4{
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+    width: 400px;
+    transition: all 0.5s ease-in;
+}
+.university_news_2 p{
+    text-wrap: wrap;
+    width: 400px;
+    text-align: left;
+    color: black;
+}
+
+.university_news_2 div:hover{
+    h4{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    }
+}
+
+
+/* Quantam_section */
+
+
+.Quantam_section_inner{
+    background-image: url(Images/Quantum_Future_bg.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    
+    
+}
+
+.Quantam_section_inner_1{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.BREAKTHROUGHS:hover{
+    .LsThn{
+        background-color: black;
+    }
+}
+.Arvind_Narayanan:hover{
+    text-decoration: underline;
+}
+
+/* Princeton in the news */
+.princeton_news{
+    display: flex;
+    flex-basis: 30%;
+}
+.princeton_news h4{
+    color: rgb(39, 38, 38);
+    font-size: 20px;
+}
+.princeton_news h4:hover{
+    text-decoration: underline;
+}
+.princeton_news div{
+    width: 250%;
+    margin: 30px;
+    padding: 0 80px;
+    border-top: 4px solid rgb(255, 104, 50);
+}
+
+/* Venture_forward */
+
+.Venture_forward{
+    background-color: black;
+    display: flex;
+}
+.Venture_forward .div{
+    width: 50%;
+}
+
+/* Student_Life */
+
+.Student_Life{
+    background-image: url(Images/Student_Life.jpg);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+}
+.Student_Life div{
+    width: 50%;
+    margin: 20px;
+    padding: 50px;
+}
+
+
+/* upcoming_events */
+
+.upcoming_events_1{
+    display: flex;
+    margin: 20px;
+    align-content: space-between;
+}
+.upcoming_events_1 .upcoming_events_2{
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-wrap: wrap;
+    height: 30vh;
+    
+}
+
+.upcoming_events_1 h2{
+    font-size: 1.1rem
+}
+
+.upcoming_events_dates{
+    float: left;
+    width: 15%;
+    height: 25vh;
+    margin: 5px;
+    padding: 0 30px;
+    text-align: center;
+}
+.upcoming_events_dates h1 {
+    font-size: 30px;
+}
+
+
+/* study_at_princeton */
+
+.study_at_princeton{
+    display: flex;
+    background-image: url(Images/Study_at_Princeton.jpg);
+    height: 110vh;
+}
+
+.study_at_princeton div{
+    
+    width: 50%;
+    margin: 20px;
+    padding: 50px;
+}
+
+.study_at_princeton h2{
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+}
+
+/* work_at_princeton */
+
+.work_at_princeton{
+    background-image: url(Images/Work_at_Princeton.jpg);
+    background-size: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(255, 138, 3);
+}
+.work_at_princeton div{
+    width: 25%;
+    height: 45vh;
+    margin: 50px 30px;
+    padding: 60px;
+    
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact h2{
+    color: white;
+    font-size: 20px;
+}
+.contact h2:hover{
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
+}
+
+.contact div {
+    width: 25%;
+    padding: 25px;
+}
+
+.bottom_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.bottom_footer span:hover{
+    color: orange;
+    text-decoration: underline;
+}
